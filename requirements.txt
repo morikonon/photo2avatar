@@ -1,0 +1,10 @@
+# Python 3.10. SMPL's .pkl loader (chumpy) breaks on newer numpy / Python versions.
+numpy==1.23.5
+torch>=2.1
+smplx==0.1.28
+chumpy==0.70
+opencv-python-headless>=4.8
+pillow>=10
+trimesh>=4.2   # tests only
+# HMR2.0 (pulls pytorch-lightning, timm, yacs, ...)
+git+https://github.com/shubham-goel/4D-Humans.git

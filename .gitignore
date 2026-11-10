@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+out/
+# SMPL / HMR2 licences forbid redistributing the models or meshes derived from them
+*.pkl
+*.npz
+*.glb
+*.ckpt
+.DS_Store
